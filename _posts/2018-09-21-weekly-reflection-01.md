@@ -17,6 +17,6 @@ date: 2018-09-21
  to put "the name of the directory" then a slash and then what you want to name the file. For example, for this post I did _posts/"name of
  the file". I'm pretty sure I got this down.
  
- 3. Describe your biggest challenge.
+3. Describe your biggest challenge.
  
   My biggest challenge was getting the link to my first post to work. I accidently forgot to change the date of the file so when I tried     to type the file name into the URL (with the wrong date) it didn't work. I didnt know what was wrong until I saw the file and the date     was wrong. The file then didnt let me edit it after a while. When I finally fixed the date to the file, I typed in the correct URL but     it still didn't work. I hadn't realized that it takes a while for the post to go up... Eventually my first post was up.
