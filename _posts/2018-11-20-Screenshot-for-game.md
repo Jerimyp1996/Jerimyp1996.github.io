@@ -1,0 +1,7 @@
+---
+layout: post
+title: My Screenshot
+date: 2018-11-20
+---
+
+![Screenshot for game](/images/Screenshot for game.png)
