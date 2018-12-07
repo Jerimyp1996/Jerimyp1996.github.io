@@ -13,5 +13,5 @@ date: 2018-12-07
  
  # Part 2: Challenges
  
- One challenge that I am facing right now is that I dont know what shape is going diagonaolly through the flag. It sseems like a rectangle that has been sliced at the top but what would that shapes name be in wescheme? Perhaps I would have to create a rectangle but then slighly cover the top with white so that it appears to be cut at the end.
+ One challenge that I am facing right now is that I dont know what shape is going diagonaolly through the flag. It sseems like a rectangle that has been sliced at the top but what would that shapes name be in wescheme? Perhaps I would have to create a rectangle but then slighly cover the top with white so that it appears to be cut at the end. I thnk that that is the oinly problem that I haave right now, before  I actually start to code it. The shaopes and its positions seem failry undertstandable which will take a lot of trial and errors to complete. 
  
