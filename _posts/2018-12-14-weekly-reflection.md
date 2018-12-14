@@ -38,3 +38,4 @@ date: 2018-12-14
 
 # 3) Reflection on Progress
 
+ So far, this is what my flag looks like. 
