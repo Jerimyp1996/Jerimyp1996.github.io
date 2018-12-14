@@ -38,4 +38,4 @@ date: 2018-12-14
 
 # 3) Reflection on Progress
 
- So far, this is what my flag looks like. 
+ So far, this is what my flag looks like. It still needs 2 small triangles and 2 big traingles
