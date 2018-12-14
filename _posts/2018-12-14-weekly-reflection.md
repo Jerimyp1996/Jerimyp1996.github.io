@@ -21,7 +21,7 @@ date: 2018-12-14
 
 --Rectangles(to form cross)
 
-;(rectangle 60 300 "solid" "red")
+;(rectangle 60 (/ HEIGHT) "solid" "red")
 
 ;(rectangle 600 60 "solid" "red")
 
