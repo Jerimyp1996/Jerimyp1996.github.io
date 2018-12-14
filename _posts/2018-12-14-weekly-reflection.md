@@ -32,10 +32,9 @@ date: 2018-12-14
 ```
 
 # 2) My Flag
-
-[flagV2](/images/flagV2.png)
+[flagv2](images/Flagv2.png)
 
 
 # 3) Reflection on Progress
 
- So far, this is what my flag looks like. It still needs 2 small triangles and 2 big traingles
+ So far, this is what my flag looks like. It still needs 2 small triangles, 2 big traingles and the diagonal rectangle that has a cut edge. I challenge that I am facing relates to the traingles that I still need to add. They are a reflection of the traingles that I already
