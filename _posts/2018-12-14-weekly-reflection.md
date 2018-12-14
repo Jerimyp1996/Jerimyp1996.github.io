@@ -32,7 +32,7 @@ date: 2018-12-14
 ```
 
 # 2) My Flag
-[flagv2](images/Flagv2.png)
+[Flagv2](images/Flagv2.png)
 
 
 # 3) Reflection on Progress
