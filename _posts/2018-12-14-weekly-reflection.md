@@ -37,4 +37,4 @@ date: 2018-12-14
 
 # 3) Reflection on Progress
 
- So far, this is what my flag looks like. It still needs 2 small triangles, 2 big traingles and the diagonal rectangle that has a cut edge. I challenge that I am facing relates to the traingles that I still need to add. They are a reflection of the traingles that I already
+ So far, this is what my flag looks like. It still needs 2 small triangles, 2 big traingles and the diagonal rectangle that has a cut edge at the end. A challenge that I am facing relates to the traingles that I still need to add. They are a reflection of the traingles that I already have but I'm not sure how to make them. The rotation function only rotates cuonterclockwise(from my knowledge), so how would I make the other triangles? If there was a way to reflect a shape or rotate it clockwise, I would be able to make my remaining shape.
