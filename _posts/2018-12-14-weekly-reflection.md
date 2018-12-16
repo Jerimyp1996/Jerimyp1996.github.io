@@ -40,7 +40,7 @@ date: 2018-12-14
 (put-image (rectangle 70 16 "solid" "white") 408 112(put-image (rectangle 50 16 "solid" "white") 220 111(put-image (rectangle 50 16 "solid" "white") 370 189(put-image (rectangle 50 16 "solid" "white") 179 189(put-image (rotate 25 (rectangle 300 20 "solid" "red")) 100 45(put-image  (rotate 25(rectangle 300 20 "solid" "red")) 490 255(put-image (rotate 337 (rectangle 300 20 "solid" "red")) 520 60 (put-image (rotate 336 (rectangle 300 20 "solid" "red")) 60 254(put-image (rotate 270 (triangle/sas 170 90 70 "solid" "darkblue")) 530 230(put-image (rotate 90 (triangle/sas 170 90 70 "solid" "darkblue")) 60 73 (put-image (rotate 90 (triangle/sas 190 90 90 "solid" "darkblue")) 440 254 (put-image(rotate 270 (triangle/sas 190 90 90 "solid" "darkblue")) 160 45 (put-image(rotate 180(right-triangle 170 70 "solid" "darkblue")) 530 73(put-image (right-triangle 170 70 "solid" "darkblue") 60 230(put-image(rotate 180(right-triangle 190 90 "solid" "darkblue")) 160 254(put-image (rectangle 600 60 "solid" "red") 300 150(put-image (rectangle 60 (/ WIDTH 2) "solid" "red") 300 150 (put-image(right-triangle 190 90 "solid" "darkblue") 440 45(rectangle WIDTH HEIGHT "outline" "black")))))))))))))))))))
 ```
 # 2) My Flag
-[flagV2](images/flagV2.png)
+[flagV2](/images/flagV2.png)
 
 
 # 3) Reflection on Progress
