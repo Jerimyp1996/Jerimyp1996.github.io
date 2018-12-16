@@ -41,7 +41,7 @@ date: 2018-12-14
 ```
 # 2) My Flag
 
-[flagv2](images/flagv2.png)
+[flagv2](/images/flagv2.png)
 
 # 3) Reflection on Progress
 
