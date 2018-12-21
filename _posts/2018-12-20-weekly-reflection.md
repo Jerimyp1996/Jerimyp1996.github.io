@@ -11,14 +11,13 @@ date: 2018-12-21
 -   What country did you design for? _then delete this instruction_
 -   What grade do you expect? _then delete this instruction_
 
-<!--- Delete this comment and add your writing -->
+I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty geometrically accurate and eye pleasing. Therefore, I think that I deserve at least a practitioner for my effort on the Flag and the scaling part. Although the scaling part does work, two triangles are always out of place. This was obviusly not intended but I think that because the other shapes work(and because of my attempt at this), I should get at least a practitioner for this Flag project.
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
 
 * * *
-![Flag](/images/final-flag.png)
+![Flag
 * * *
 
 ## Describe your process.
