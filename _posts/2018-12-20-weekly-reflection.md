@@ -31,9 +31,7 @@ At first, I thought of my Flag as two layers. The white background and the shape
 
 * * *
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
- This code shows the cross of the United Kingdom. I created two 
+ This code shows the cross in the middle of the United Kingdom Flag. I created two red rectangles and positioned them in the middle so that they intersect and create a cross. The first rectangle funcion created the horizontal rectangle. It has a widty of 600(the whole flag) and a hight of 60. The poitioning of this is at 300(in the middle of the flags width) and at 150(also in the middle, but of the height)
 
 
 ## Program code
