@@ -31,7 +31,7 @@ At first, I thought of my Flag as two layers. The white background and the shape
 
 * * *
 
- This code shows the cross in the middle of the United Kingdom Flag. I created two red rectangles and positioned them in the middle so that they intersect and create a cross. The first rectangle funcion created the horizontal rectangle. It has a widty of 600(the whole flag) and a hight of 60. The poitioning of this is at 300(in the middle of the flags width) and at 150(also in the middle, but of the height)
+ This code shows the cross in the middle of the United Kingdom Flag. I created two red rectangles and positioned them in the middle so that they intersect and create a cross. The first rectangle funcion created the horizontal rectangle. It has a widty of 600(the whole flag) and a hight of 60. The poitioning of this is at 300(in the middle of the flags width) and at 150(also in the middle, but of the height). The nect retcangle function also creates a rectangle but vertically. It has a witdth of 60 and a height of 300(which is half of the flags width). The positioning then makes it go into the middle.
 
 
 ## Program code
