@@ -8,13 +8,9 @@ date: 2018-12-21
 
 ## Describe your program
 
--   What country did you design for? _then delete this instruction_
--   What grade do you expect? _then delete this instruction_
-
 I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty geometrically accurate and eye pleasing. Therefore, I think that I deserve at least a practitioner for my effort on the Flag and the scaling part. Although the scaling part does work, two triangles are always out of place. This was obviusly not intended but I think that because the other shapes work(and because of my attempt at this), I should get at least a practitioner for this Flag project.
 
 ## Current output
-
 
 * * *
 ![final-flagUK](/images/final-flagUK.png)
@@ -22,33 +18,71 @@ I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty 
 
 ## Describe your process.
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
-
-<!--- Delete this comment and add your writing -->
+At first, I thought of my Flag as two layers. The white background and the shapes on top of it. This worked because all I had to do was create the shapes and then position them correctly so they resemble the United Kingdom Flag. This was working great with the cross and the right triangles, but when it came down to make the "left triangles" and the upside down traingles, there was a dilemma. I then figured out that I could use the function "triangle/sas" to create these shapes. This function allowed me to create 90 degree left triangles. I was so excited because it meant I could finish my Flag. There was then only one more problem in the creation of this Flag. It was the diagonal rectangles. The positioning and creation of the shapes were easy, but making it look sharp at the end was not. During this thought process, I thought about making samll white rectangles to cover the tip of the rectangle and make it look cut. This in fact worked, and I had Finished my United Kingdom Flag.
 
 
 ## Explain your code.
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
-
 * * *
 
 ```
-Insert 10-15 line code section here _then delete this instruction_
+(put-image (rectangle 600 60 "solid" "crimson") 300 150(put-image (rectangle 60 (/ WIDTH 2) "solid" "crimson") 300 150
 ```
 
 * * *
 
 -   Explain the code you posted by telling us about each argument.
 -   Then tell us how your code section fits into the whole.
- 
-<!--- Delete this comment and add your writing -->
+ This code shows the cross of the United Kingdom. I created two 
 
 
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+;Definitions for height and width
+(define WIDTH 600)
+(define HEIGHT 300)
+
+
+;-Measurements: width(60 * 10) height(30 * 10)
+
+;-Traingle 1(big)
+
+;(right-triangle 190 90 "solid" "darkblue")
+
+;-Triangle 2(small)
+;(right-triangle 170 70 "solid" "darkblue")
+
+;-Rectangles
+
+;(rectangle 60 (/ WIDTH 2) "solid" "red")
+
+;(rectangle 600 60 "solid" "red")
+
+;-Triangle(big and "reflected")
+
+;(rotate 270 (triangle/sas 190 90 90 "solid" "darkblue"))
+
+;-Triangle(small and reflected)
+
+;(triangle/sas 170 90 70 "solid" "darkblue")
+
+;-Diagonal rectangle
+
+;(rotate 335 (rectangle 300 20 "solid" "red"))
+
+;-Small white rectangle(for cut red rectangle)
+
+;(rectangle 50 16 "solid" "white")
+
+;-Flag program
+
+(put-image (rectangle 70 16 "solid" "white") 408 112(put-image (rectangle 50 16 "solid" "white") 220 111(put-image (rectangle 50 16 "solid" "white") 370 189(put-image (rectangle 50 16 "solid" "white") 179 189(put-image (rotate 25 (rectangle 300 20 "solid" "crimson")) 100 45(put-image  (rotate 25(rectangle 300 20 "solid" "crimson")) 490 255(put-image (rotate 337 (rectangle 300 20 "solid" "crimson")) 520 60 (put-image (rotate 336 (rectangle 300 20 "solid" "crimson")) 60 255(put-image (rotate 270 (triangle/sas 170 90 70 "solid" "darkblue")) 530 230(put-image (rotate 90 (triangle/sas 170 90 70 "solid" "darkblue")) 60 73 (put-image (rotate 90 (triangle/sas 190 90 90 "solid" "darkblue")) 440 255 (put-image(rotate 270 (triangle/sas 190 90 90 "solid" "darkblue")) 160 45 (put-image(rotate 180(right-triangle 170 70 "solid" "darkblue")) 530 73(put-image (right-triangle 170 70 "solid" "darkblue") 60 230(put-image(rotate 180(right-triangle 190 90 "solid" "darkblue")) 160 255(put-image (rectangle 600 60 "solid" "crimson") 300 150(put-image (rectangle 60 (/ WIDTH 2) "solid" "crimson") 300 150 (put-image(right-triangle 190 90 "solid" "darkblue") 440 45(rectangle WIDTH HEIGHT "solid" "white")))))))))))))))))))
+
+
+
+;- Defined Flag(Scaled)
+(define Size 1)
+
+(put-image (rectangle (* Size 70) (* Size 16) "solid" "white") (* Size 408) (* Size 112) (put-image (rectangle (* Size 50) (* Size 16) "solid" "white") (* Size 220) (* Size 111) (put-image (rectangle (* Size 50) (* Size 16) "solid" "white") (* Size 370) (* Size 189)(put-image (rectangle (* Size 50) (* Size 16) "solid" "white") (* Size 179) (* Size 189) (put-image (rotate 25 (rectangle (* Size 300) (* Size 20) "solid" "crimson")) (* Size 100) (* Size 45) (put-image  (rotate 25(rectangle (* Size 300) (* Size 20) "solid" "crimson")) (* Size 490) (* Size 255)(put-image (rotate 337 (rectangle (* Size 300) (* Size 20) "solid" "crimson")) (* Size 520) (* Size 60) (put-image (rotate 336 (rectangle (* Size 300) (* Size 20) "solid" "crimson")) (* Size 60) (* Size 255) (put-image (rotate 270 (triangle/sas (* Size 170) (* Size 90) (* Size 70) "solid" "darkblue")) (* Size 530) (* Size 230)(put-image (rotate 90 (triangle/sas (* Size 170) (* Size 90) (* Size 70) "solid" "darkblue")) (* Size 60) (* Size 73) (put-image (rotate 90 (triangle/sas (* Size 190) (* Size 90) (* Size 90) "solid" "darkblue")) (* Size 440) (* Size 255) (put-image(rotate 270 (triangle/sas (* Size 190) (* Size 90) (* Size 90) "solid" "darkblue")) (* Size 160) (* Size 45) (put-image(rotate 180(right-triangle (* Size 170) (* Size 70) "solid" "darkblue")) (* Size 530) (* Size 73)(put-image (right-triangle (* Size 170) (* Size 70) "solid" "darkblue") (* Size 60) (* Size 230)(put-image(rotate 180(right-triangle (* Size 190) (* Size 90) "solid" "darkblue")) (* Size 160) (* Size 255)(put-image (rectangle (* Size 600) (* Size 60) "solid" "crimson") (* Size 300) (* Size 150)(put-image (rectangle (* Size 60) (* Size 300) "solid" "crimson") (* Size 300) (* Size 150) (put-image(right-triangle (* Size 190) (* Size 90) "solid" "darkblue") (* Size 440) (* Size 45)(rectangle WIDTH HEIGHT "solid" "white")))))))))))))))))))
 ```
