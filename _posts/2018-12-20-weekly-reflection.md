@@ -8,7 +8,7 @@ date: 2018-12-21
 
 ## Describe your program
 
-I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty geometrically accurate, eye pleasing and scalable. Therefore, I think that I deserve at proffesional for my effort on the Flag and the scaling part. The Flag does indeed resemble the United Kingdom Flag and if you change one number in the code, you can scale it to your liking; whether its half the size or twice the size. 
+I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty geometrically accurate, eye pleasing and scalable. Therefore, I think that I deserve a professional for my effort on the Flag and the scaling part. The Flag does indeed resemble the United Kingdom Flag and if you change one number in the code, you can scale it to your liking; whether its half the size, twice the size, or any size!
 
 ## Current output
 
@@ -31,7 +31,7 @@ At first, I thought of my Flag as two layers. The white background and the shape
 
 * * *
 
- This code shows the cross in the middle of the United Kingdom Flag. I created two red rectangles and positioned them in the middle so that they intersect and create a cross. The first rectangle funcion created the horizontal rectangle. It has a widty of 600(the whole flag) and a hight of 60. The poitioning of this is at 300(in the middle of the flags width) and at 150(also in the middle, but of the height). The nect retcangle function also creates a rectangle but vertically. It has a witdth of 60 and a height of 300(which is half of the flags width). The positioning then makes it go into the middle.
+ This code shows the cross in the middle of the United Kingdom Flag. I created two red rectangles and positioned them in the middle so that they intersect and create a cross. The first rectangle function created the horizontal rectangle. It has a width of 600(the whole flags width) and a height of 60. The poitioning of this is at 300(in the middle of the flags width) and at 150(also in the middle, but of the height). The next retcangle function also creates a rectangle but vertically. It has a witdth of 60 and a height of 300(which is the flags height). The positioning of this rectangle(which is the same as the other rectangle) then makes it go into the middle to then form the cross.
 
 
 ## Program code
