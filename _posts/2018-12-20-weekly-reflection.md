@@ -21,7 +21,7 @@ I designed a Flag for the United Kingdom. I made the United Kingdom flag pretty 
 At first, I thought of my Flag as two layers. The white background and the shapes on top of it. This worked because all I had to do was create the shapes and then position them correctly so they resemble the United Kingdom Flag. This was working great with the cross and the right triangles, but when it came down to make the "left triangles" and the upside down traingles, there was a dilemma. I then figured out that I could use the function "triangle/sas" to create these shapes. This function allowed me to create 90 degree left triangles. I was so excited because it meant I could finish my Flag. There was then only one more problem in the creation of this Flag. It was the diagonal rectangles. The positioning and creation of the shapes were easy, but making it look sharp at the end was not. During this thought process, I thought about making samll white rectangles to cover the tip of the rectangle and make it look cut. This in fact worked, and I had Finished my United Kingdom Flag.
 
 
-## Explain your code.
+## Explain your code
 
 * * *
 
