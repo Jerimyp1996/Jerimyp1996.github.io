@@ -20,9 +20,9 @@ https://www.wescheme.org/view?publicId=KFHNREJoPl
 # Part of my Video Game 
 
  update-player : Number String -> Number
- given the player's y-coordinate and a direction, output the NEXT y
-
+ 
  EXAMPLES:
+ 
 (EXAMPLE( update-player 320 "up")  (+ 320 20))
 (EXAMPLE( update-player 100 "up")  (+ 100 20))
 (EXAMPLE( update-player 50 "down") (- 50  20))
